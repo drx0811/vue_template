@@ -51,6 +51,42 @@ export const constantRoutes = [
       component: () => import('@/views/domEdit/index'),
       meta: { title: 'DomEdit', icon: 'dashboard' }
     }]
+  },{
+    path: '/computed',
+    component: Layout,
+    children: [{
+      path: 'computed',
+      name: 'Computed',
+      component: () => import('@/views/computed/index'),
+      meta: { title: 'Computed', icon: 'dashboard' }
+    }]
+  },{
+    path: '/animation',
+    component: Layout,
+    children: [{
+      path: 'animation',
+      name: 'Animation',
+      component: () => import('@/views/animation/index'),
+      meta: { title: 'Animation', icon: 'dashboard' }
+    }]
+  },{
+    path: '/lifeCycle',
+    component: Layout,
+    children: [{
+      path: 'lifeCycle',
+      name: 'LifeCycle',
+      component: () => import('@/views/lifeCycle/index'),
+      meta: { title: 'LifeCycle', icon: 'dashboard' }
+    }]
+  },{
+    path: '/components',
+    component: Layout,
+    children: [{
+      path: 'components',
+      name: 'Components',
+      component: () => import('@/views/components/index'),
+      meta: { title: 'Components', icon: 'dashboard' }
+    }]
   },
   {
     path: '/example',

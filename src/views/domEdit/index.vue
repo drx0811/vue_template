@@ -67,9 +67,7 @@ export default {
     let ss2=parentNode3.querySelector('#ddd')
     console.log(ss1);
     console.log(ss2);
-    
   }
-  
 }
 </script>
 
