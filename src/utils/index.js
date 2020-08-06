@@ -115,3 +115,15 @@ export function param2Obj(url) {
   })
   return obj
 }
+export function fomateTime(data) {
+  let year=data.getFullYear();
+  let month=data.getMonth()+1;
+  let day=data.getDate();
+  return `${year}-${month}-${day}`
+}
+export function getYear(data) {
+  return data.getFullYear();
+}
+export function getMonth(data) {
+  return data.getMonth();
+}
