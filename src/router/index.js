@@ -87,6 +87,24 @@ export const constantRoutes = [
       component: () => import('@/views/components/index'),
       meta: { title: 'Components', icon: 'dashboard' }
     }]
+  },{
+    path: '/SlotName',
+    component: Layout,
+    children: [{
+      path: 'SlotName',
+      name: 'SlotName',
+      component: () => import('@/views/SlotName/index'),
+      meta: { title: 'SlotName', icon: 'dashboard' }
+    }]
+  },{
+    path: '/contract',
+    component: Layout,
+    children: [{
+      path: 'contract',
+      name: 'Contract',
+      component: () => import('@/views/contract/index'),
+      meta: { title: 'contract', icon: 'dashboard' }
+    }]
   },
   {
     path: '/example',
