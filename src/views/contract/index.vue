@@ -104,7 +104,7 @@
 			.top1 {
 				cursor: pointer;
 				width: 20px;
-				height: 20xp;
+				height: 20px;
 				border-radius: 10px;
 				text-align: center;
 				line-height: 20px;

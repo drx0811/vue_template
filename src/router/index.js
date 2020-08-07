@@ -105,6 +105,24 @@ export const constantRoutes = [
       component: () => import('@/views/contract/index'),
       meta: { title: 'contract', icon: 'dashboard' }
     }]
+  },{
+    path: '/plugin',
+    component: Layout,
+    children: [{
+      path: 'plugin',
+      name: 'Plugin',
+      component: () => import('@/views/plugin/index'),
+      meta: { title: 'Plugin', icon: 'dashboard' }
+    }]
+  },{
+    path: '/pluginMessage',
+    component: Layout,
+    children: [{
+      path: 'pluginMessage',
+      name: 'PluginMessage',
+      component: () => import('@/views/pluginMessage/index'),
+      meta: { title: 'PluginMessage', icon: 'dashboard' }
+    }]
   },
   {
     path: '/example',
